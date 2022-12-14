@@ -1,0 +1,168 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+.input{
+    margin: 15px;
+    padding: 15px;
+}
+.container .input button{
+    background-color: #282A35;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+.card{
+    height: 60vh;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    background-color: #282A35;
+    border-radius: 15px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    height: 30%;
+}
+
+.wi{
+    color: white;
+    font-size: 15vh;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.small-card-details{
+    background-color: rgb(213, 232, 249);
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+}
+.temp{
+    font-weight: bold;
+    font-size: 8vh;
+    text-align: center;
+    justify-self: center;
+}
+
+.locationAndTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.city{
+    font-weight: bold;
+    font-size: 6vh;
+}
+.time{
+    font-weight: bold;
+    font-size: 3vh;
+    word-wrap: break-word;
+}
+.moreDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.small-card-more-details{
+    width: 25%;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.title{
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+.value{
+    font-weight: normal;
+    font-size: 2.5vh;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.card{
+    height: 60vh;
+    width: 55%;}
+.wi{
+    font-size: 10vh;
+}
+
+.details{
+    height: 30%;
+}
+
+.small-card-details{
+    padding: 5px;
+}
+.temp{
+    font-size: 8vh;
+}
+
+.city{
+    font-size: 4vh;
+}
+.time{
+    font-size: 2vh;
+}
+.small-card-more-details{
+    padding: 8px;
+}
+.title{
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+.value{
+    font-weight: normal;
+    font-size: 2.5vh;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        height: 80vh;
+    }
+    .card{
+        width: 90%;
+    }
+
+    .temp{
+        font-size: 7vh;
+    }
+    .title{
+        font-size: 2vh;
+        margin-bottom: 0.5vh;
+    }
+    .value{
+        font-weight: normal;
+        font-size: 1.5vh;
+    }
+    }
